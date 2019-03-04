@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.scss';
+
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import { Grid, Responsive } from 'semantic-ui-react';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Responsive as={Navigation} type="menu" maxWidth={767} />
+        <Grid container className="app-container" columns='equal'>
+          <Responsive as={Grid.Column} width={4} stackable="true" minWidth={768} className="app-navigation">
+            <Navigation type="sidebar" />
+          </Responsive>
+          <Grid.Column stackable="true">
+            <Router>
+              <Switch>
+                <Route exact path="/" component={Home} />
+              </Switch>
+            </Router>
+          </Grid.Column>
+        </Grid>
       </div>
     );
   }

@@ -1,0 +1,18 @@
+.navigation-background {
+  background-image: url(../assets/img/coast.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.ui.centered.grid.navigation-grid {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.navigation-card{
+  margin: 0 auto !important;
+}
