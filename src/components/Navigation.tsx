@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Card, Grid, Icon, Image, Menu } from 'semantic-ui-react';
+import { Button, Card, Grid, Icon, List, Menu } from 'semantic-ui-react';
 import '../styles/navigation.scss';
 
 interface INavgiationProps {
