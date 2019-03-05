@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <Responsive as={Navigation} type="menu" maxWidth={767} />
-        <Grid container className="app-container" columns='equal'>
-          <Responsive as={Grid.Column} width={4} stackable="true" minWidth={768} className="app-navigation">
+        <Grid container className="app-container" columns='equal' stretched>
+          <Responsive as={Grid.Column} width={4} stackable="true" minWidth={768} className="app-navigation" stretched>
             <Navigation type="sidebar" />
           </Responsive>
           <Grid.Column stackable="true">
