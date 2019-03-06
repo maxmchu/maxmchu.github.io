@@ -30,7 +30,7 @@ class Home extends React.PureComponent<IHomeProps> {
 
         <h2>Projects</h2>
 
-        <h3>ADALift (in progress)</h3>
+        <h3><a href="https://github.com/maxmchu/adalift-web">ADALift (in progress)</a></h3>
         <p>
           A new automatic ride-scheduling and rider/driver/dispatcher application for
           Cornell Student Disability Service's pre-arranged shuttle service for
