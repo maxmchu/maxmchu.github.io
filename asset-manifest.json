@@ -1,25 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.91e81442.chunk.css",
-    "main.js": "/static/js/main.a241556e.chunk.js",
-    "main.js.map": "/static/js/main.a241556e.chunk.js.map",
+    "main.css": "/static/css/main.847e22f1.chunk.css",
+    "main.js": "/static/js/main.265b9899.chunk.js",
+    "main.js.map": "/static/js/main.265b9899.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
-    "static/js/2.c784ea8a.chunk.js": "/static/js/2.c784ea8a.chunk.js",
-    "static/js/2.c784ea8a.chunk.js.map": "/static/js/2.c784ea8a.chunk.js.map",
+    "static/js/2.a3ee4002.chunk.js": "/static/js/2.a3ee4002.chunk.js",
+    "static/js/2.a3ee4002.chunk.js.map": "/static/js/2.a3ee4002.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fec083230be98f388320279fe05ca3d0.js": "/precache-manifest.fec083230be98f388320279fe05ca3d0.js",
+    "precache-manifest.af6fcbc605af599655fef8dd14386ef2.js": "/precache-manifest.af6fcbc605af599655fef8dd14386ef2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
-    "static/css/main.91e81442.chunk.css.map": "/static/css/main.91e81442.chunk.css.map",
+    "static/css/main.847e22f1.chunk.css.map": "/static/css/main.847e22f1.chunk.css.map",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/brh-vertical.png": "/static/media/brh-vertical.c12039b0.png",
-    "static/media/carriage-logo.png": "/static/media/carriage-logo.523fbdc3.png",
     "static/media/carriage.svg": "/static/media/carriage.2b3b1fe0.svg",
-    "static/media/App.scss": "/static/media/coast.cf528d80.jpg",
-    "static/media/mockups.png": "/static/media/mockups.83efec7c.png",
-    "static/media/retro-screen.png": "/static/media/retro-screen.0efaed59.png",
-    "static/media/work.jpg": "/static/media/work.b0777cbd.jpg"
+    "static/media/App.scss": "/static/media/coast.cf528d80.jpg"
   }
 }
