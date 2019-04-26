@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Card, Grid, Icon, List, Menu } from 'semantic-ui-react';
+import { Button, Card, Grid, Icon, Menu } from 'semantic-ui-react';
 import '../styles/navigation.scss';
 
 interface INavgiationProps {
@@ -19,7 +19,7 @@ class Navigation extends React.Component<INavgiationProps, INavigationState> {
   }
 
   public render() {
-    return (this.props.type == 'sidebar') ? this.renderSidebar() : this.renderMenu();
+    return (this.props.type === 'sidebar') ? this.renderSidebar() : this.renderMenu();
   }
 
   private renderSidebar(): React.ReactElement {
@@ -43,23 +43,23 @@ class Navigation extends React.Component<INavgiationProps, INavigationState> {
               </Card.Content>
               <Card.Content>
                 <Card.Description>
-                  <a href="http://bigredhacks.com" target="_blank">
+                  <a href="http://bigredhacks.com" target="_blank" rel="noopener noreferrer">
                     <Icon name='signal' color='red' />
                     Web Lead @ Big Red Hacks<br />
                   </a>
-                  <a href="http://creativecomputing.club" target="_blank">
+                  <a href="http://creativecomputing.club" target="_blank" rel="noopener noreferrer">
                     <Icon name='laptop' color='grey' />
                     Web + Sponsor Lead @ Creative Computing<br />
                   </a>
-                  <a href="http://www.cs.cornell.edu/courses/cs4450/2019sp/" target="_blank">
+                  <a href="http://www.cs.cornell.edu/courses/cs4450/2019sp/" target="_blank" rel="noopener noreferrer">
                     <Icon name='graduation cap' color='black' />
                     CS 4450 Teaching Assistant, Spring '19<br />
                   </a>
-                  <a href="https://amazon.com" target="_blank">
+                  <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
                     <Icon name='amazon' color='orange' />
                     SDE Intern @ Amazon, Summer '18<br />
                   </a>
-                  <a href="https://opennetworking.org" target="_blank">
+                  <a href="https://opennetworking.org" target="_blank" rel="noopener noreferrer">
                     <Icon name='globe' color='blue' />
                     Software Co-op @ Open Networking, Summer/Fall '17<br />
                   </a>

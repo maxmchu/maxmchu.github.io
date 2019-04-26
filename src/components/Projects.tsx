@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Item, Label } from 'semantic-ui-react';
 import '../styles/projects.scss';
+import { Link } from 'react-router-dom';
 
 interface IProjectsProps {
 
@@ -18,8 +19,8 @@ class Projects extends React.PureComponent<IProjectsProps> {
         <Item>
           <Item.Image size='tiny' src={require("../assets/img/carriage.svg")} />
           <Item.Content>
-            <Item.Header content="Carriage" as="a" target="_blank" className="project-header"
-              href="https://github.com/maxmchu/adalift-web" />
+            <Item.Header content="Carriage" className="project-header"
+              as={Link} to={"/carriage"} />
             <Item.Meta content="Smarter and safer paratransit for the 21st century." />
             <Item.Description>
               An automatic ride-scheduling and rider/driver/dispatcher application for
@@ -28,10 +29,12 @@ class Projects extends React.PureComponent<IProjectsProps> {
               </Item.Description>
             <Item.Extra>
               <Label content="Cornell CIS BOOM 2019 Highlighted Project" icon="computer"
-                as="a" href="https://www.cis.cornell.edu/boom-2019-showcasing-over-40-exciting-student-tech-projects" target="_blank" />
+                as="a" href="https://www.cis.cornell.edu/boom-2019-showcasing-over-40-exciting-student-tech-projects"
+                target="_blank" />
               <Label content="2019 Big Idea Competition Finalist" icon="trophy"
                 as="a" href="https://www.facebook.com/lifechanginglabs/posts/2403040376393825" target="_blank" />
-
+              <Label content="View on GitHub" icon="github"
+                as="a" href="https://github.com/maxmchu/carriage-web" target="_blank" />
             </Item.Extra>
           </Item.Content>
         </Item>
@@ -45,7 +48,7 @@ class Projects extends React.PureComponent<IProjectsProps> {
               Currently leading web team to renovate Big Red Hacks's public website
               and admin dashboard. Admin dashboard handles hackathon applications and
               logistics.
-              </Item.Description>
+            </Item.Description>
           </Item.Content>
         </Item>
         <Item>
