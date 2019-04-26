@@ -20,7 +20,7 @@ class Projects extends React.PureComponent<IProjectsProps> {
           <Item.Image size='tiny' src={require("../assets/img/carriage.svg")} />
           <Item.Content>
             <Item.Header content="Carriage" className="project-header"
-              as={Link} to={"/carriage"} />
+              as="a" href="https://carriage.maxmchu.com" />
             <Item.Meta content="Smarter and safer paratransit for the 21st century." />
             <Item.Description>
               An automatic ride-scheduling and rider/driver/dispatcher application for

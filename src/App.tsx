@@ -3,7 +3,6 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.scss';
 
 import Home from './components/Home';
-import Carriage from './components/Carriage'
 
 
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/carriage" component={Carriage} />
             <Route component={Home} />
           </Switch>
         </Router>
