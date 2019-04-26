@@ -1,0 +1,108 @@
+.mockup-bg {
+  padding: 10vh 5vh !important;
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+}
+.ui.header.carriage-header{
+  color: #ffffff;
+  font-size: 3.5vw;
+  @media screen and (max-width: 767px) {
+    font-size: 2em;
+  }
+}
+.column.content-container{
+  padding: 5vw !important;
+}
+.text-align-right{
+  text-align: right !important;
+  @media screen and (max-width: 767px){
+    text-align: center;
+  }
+}
+.text-align-center{
+  text-align: center !important;
+}
+.white-text {
+  color: #ffffff !important;
+  font-size: 1vw;
+  @media screen and (max-width: 767px){
+    font-size: 2em;
+  }
+}
+.gold-text{
+  color: rgb(255, 182, 0) !important;
+}
+.row-padding{
+  padding: 10vh 5vh !important;
+}
+.row.row-top-padding{
+  padding-top: 10vh!important;
+}
+.column.column-lr-padding {
+  padding-left: 5vw !important;
+  padding-right: 5vw !important;
+}
+.row.row-no-padding {
+  padding: 0 !important;
+}
+span.blue-highlight, .blue-highlight{
+  color: #2F80ED !important;
+  font-weight: bold;
+}
+.ui.menu.fixed-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgba(0,0,0,0) !important;
+}
+.ui.header.carriage-title {
+  font-size: 2vw;
+  @media screen and (max-width: 767px) {
+    font-size: 2em;
+  }
+}
+p.carriage-content, .ui.list.carriage-content {
+  font-size: 1.25em;
+  color: rgb(77,77,77);
+  @media screen and (max-width: 767px) {
+    font-size: 1.25em;
+  }
+}
+.ui.statistic > .label.carriage-stat-label {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 1.15;
+  @media screen and (max-width: 767px) {
+    font-size: 1.3em;
+  }
+}
+.carriage-stat{
+  height: 80px;
+}
+.ui.statistic > .value.carriage-stat-value {
+  font-weight: bold;
+  text-transform: none;
+}
+.retro-bg{
+  background-color: rgb(211, 1, 102);
+  padding: 8vh 5vh !important;
+}
+.white-bg{
+  background-color: #ffffff !important;
+}
+.ui.header.larger-title {
+  font-size: 2.5em;
+}
+.column.expand-column {
+  @media screen and (min-width: 767px){
+    height: 100%;
+  }
+  * {
+    align-self: center;
+
+  }
+}
+div.remove-padding {
+  padding: 0 !important;
+}
