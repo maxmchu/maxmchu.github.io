@@ -1,17 +1,12 @@
 import * as React from 'react';
 import { Item, Label } from 'semantic-ui-react';
 import '../styles/projects.scss';
-import { Link } from 'react-router-dom';
 
 interface IProjectsProps {
 
 }
 
 class Projects extends React.PureComponent<IProjectsProps> {
-
-  public constructor(props: IProjectsProps) {
-    super(props);
-  }
 
   public render() {
     return (
@@ -45,9 +40,8 @@ class Projects extends React.PureComponent<IProjectsProps> {
               href="https://bigredhacks.com" />
             <Item.Meta content="Web lead at Cornell's annual student-run hackathon" />
             <Item.Description>
-              Currently leading web team to renovate Big Red Hacks's public website
-              and admin dashboard. Admin dashboard handles hackathon applications and
-              logistics.
+              Lead web team to update Big Red Hacks's public website and admin
+              dashboard handling hackathon applications and logistics.
             </Item.Description>
           </Item.Content>
         </Item>
