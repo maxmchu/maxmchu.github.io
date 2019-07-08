@@ -9,10 +9,6 @@ interface IHomeProps {
 
 class Home extends React.PureComponent<IHomeProps> {
 
-  public constructor(props: IHomeProps) {
-    super(props);
-  }
-
   public render() {
     return (
       <Grid>
@@ -41,7 +37,9 @@ class Home extends React.PureComponent<IHomeProps> {
                 I was a software engineering intern at Amazon in Summer 2018,
                 and a software co-op intern at the Open Networking Foundation Summer/Fall 2017.
               </p>
-
+              <p>
+                Current Incoming SDE at Amazon.
+              </p>
               {/* <Work /> */}
               <Divider horizontal>
                 <Header as="h1">Projects</Header>

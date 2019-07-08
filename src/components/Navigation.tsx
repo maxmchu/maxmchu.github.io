@@ -31,29 +31,20 @@ class Navigation extends React.Component<INavgiationProps, INavigationState> {
               <Card.Content>
                 <Card.Header>Max Chu</Card.Header>
                 <Card.Meta>
-                  Cornell Arts &amp; Sciences '19<br />
-                  Computer Science + Economics<br />
+                  Cornell A&amp;S '19, CS + Econ<br />
+                  Incoming SDE @ Amazon<br />
                 </Card.Meta>
                 <Card.Description>
                   <p>
-                    Born and raised in New York City, and currently in-exile
-                    in Ithaca, NY. Avid fan of good pizza/bagels, cycling, and OSRS.
+                    Born and raised in New York City, avid fan of good pizza/bagels, cycling, and OSRS.
                   </p>
                 </Card.Description>
               </Card.Content>
               <Card.Content>
                 <Card.Description>
-                  <a href="http://bigredhacks.com" target="_blank" rel="noopener noreferrer">
-                    <Icon name='signal' color='red' />
-                    Web Lead @ Big Red Hacks<br />
-                  </a>
-                  <a href="http://creativecomputing.club" target="_blank" rel="noopener noreferrer">
-                    <Icon name='laptop' color='grey' />
-                    Web + Sponsor Lead @ Creative Computing<br />
-                  </a>
-                  <a href="http://www.cs.cornell.edu/courses/cs4450/2019sp/" target="_blank" rel="noopener noreferrer">
-                    <Icon name='graduation cap' color='black' />
-                    CS 4450 Teaching Assistant, Spring '19<br />
+                  <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
+                    <Icon name='amazon' color='orange' />
+                    Incoming SDE, Summer '19<br />
                   </a>
                   <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
                     <Icon name='amazon' color='orange' />
