@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Container, Divider, Grid, Responsive, Header } from 'semantic-ui-react';
+import { Button, Container, Divider, Grid, Image, Header } from 'semantic-ui-react';
 import Projects from './Projects';
-import Navigation from './Navigation';
+
+import "../styles/home.scss";
 
 interface IHomeProps {
 
@@ -11,31 +12,35 @@ class Home extends React.PureComponent<IHomeProps> {
 
   public render() {
     return (
-      <Grid>
-        <Responsive as={Navigation} type="menu" maxWidth={767} />
-        <Grid container className="app-container" columns='equal' stretched>
-          <Responsive as={Grid.Column} width={4} stackable="true" minWidth={768} className="app-navigation" stretched>
-            <Navigation type="sidebar" />
-          </Responsive>
-          <Grid.Column stackable="true">
-            <Container text>
-              <Divider horizontal>
-                <Header as="h1">About Me</Header>
-              </Divider>
-              <p>
-                I'm Max &mdash; a Software Development Engineer at Amazon . I was a Computer Science and Economics major at Cornell University's College of Arts and Sciences,
-                minored in law. In the past, I have been an intern at Amazon and the Open Networking Foundation.
-              </p>
-              {/* <Work /> */}
-              <Divider horizontal>
-                <Header as="h1">Projects</Header>
-              </Divider>
-
-              <Projects />
-
-            </Container>
+      <Grid container fluid className="app-container" columns='equal' stretched style={{ backgroundColor: "#fff" }}>
+        <Grid.Row stackable="true">
+          <Grid.Column>
+            <Image src={require("../assets/img/max.png")} size="large" centered className="home-sig" />
           </Grid.Column>
-        </Grid>
+        </Grid.Row>
+        <Grid.Column stackable="true">
+          <Container text>
+            <Divider horizontal>
+              <Header as="h1">About Me</Header>
+            </Divider>
+            <p>
+              I'm a Software Development Engineer at Amazon. I graduated in May 2019 from Cornell University's College of Arts and Sciences,
+              where I majored in Computer Science and Economics major and minored in law. In the past,
+              I have been an intern at Amazon and the Open Networking Foundation.
+            </p>
+            <div className="social-icons">
+              <Button color='linkedin' icon='linkedin' as="a" href="https://www.linkedin.com/in/max-chu-148b2946/" target="_blank" content="LinkedIn" />
+              <Button color='black' icon='github' as="a" href="https://github.com/maxmchu" target="_blank" content="GitHub" />
+            </div>
+            {/* <Work /> */}
+            <Divider horizontal>
+              <Header as="h1">Projects</Header>
+            </Divider>
+
+            <Projects />
+
+          </Container>
+        </Grid.Column>
       </Grid>
     );
   }
