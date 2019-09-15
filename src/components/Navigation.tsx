@@ -32,7 +32,7 @@ class Navigation extends React.Component<INavgiationProps, INavigationState> {
                 <Card.Header>Max Chu</Card.Header>
                 <Card.Meta>
                   Cornell A&amp;S '19, CS + Econ<br />
-                  Incoming SDE @ Amazon<br />
+                  SDE @ Amazon<br />
                 </Card.Meta>
                 <Card.Description>
                   <p>
@@ -44,7 +44,7 @@ class Navigation extends React.Component<INavgiationProps, INavigationState> {
                 <Card.Description>
                   <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
                     <Icon name='amazon' color='orange' />
-                    Incoming SDE, Summer '19<br />
+                    SDE, August '19 to present<br />
                   </a>
                   <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
                     <Icon name='amazon' color='orange' />

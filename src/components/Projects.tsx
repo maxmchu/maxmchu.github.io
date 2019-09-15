@@ -21,7 +21,10 @@ class Projects extends React.PureComponent<IProjectsProps> {
               An automatic ride-scheduling and rider/driver/dispatcher application for
               Cornell Student Disability Service's pre-arranged shuttle service for
               disabled and injured students. Built with React/Redux, AWS, Node.JS, and Google ORTools.
-              </Item.Description>
+            </Item.Description>
+            <Item.Description>
+              Current initiative project under Cornell DTI engineering project team.
+            </Item.Description>
             <Item.Extra>
               <Label content="Cornell CIS BOOM 2019 Highlighted Project" icon="computer"
                 as="a" href="https://www.cis.cornell.edu/boom-2019-showcasing-over-40-exciting-student-tech-projects"

@@ -23,22 +23,8 @@ class Home extends React.PureComponent<IHomeProps> {
                 <Header as="h1">About Me</Header>
               </Divider>
               <p>
-                I'm Max &mdash; a Computer Science and Economics major at Cornell University's College of Arts and Sciences,
-                minoring in Law and Society and graduating in May 2019. I'm the current web lead at
-                <a href="http://bigredhacks.com" target="_blank" rel="noopener noreferrer"> Big Red Hacks</a>
-                , web and sponsorship lead at the <a href="http://creativecomputing.club" target="_blank" rel="noopener noreferrer">Creative Computing Club</a>,
-                and TA for <a href="http://www.cs.cornell.edu/courses/cs4450/2019sp/" target="_blank" rel="noopener noreferrer">CS4450: Computer Networking</a>.
-                In the past, I have also served as a TA for CS4780: Machine Learning and INFO2300: Intermediate Web Development.
-              </p>
-              <Divider horizontal>
-                <Header as="h1">Work Experience</Header>
-              </Divider>
-              <p>
-                I was a software engineering intern at Amazon in Summer 2018,
-                and a software co-op intern at the Open Networking Foundation Summer/Fall 2017.
-              </p>
-              <p>
-                Current Incoming SDE at Amazon.
+                I'm Max &mdash; a Software Development Engineer at Amazon . I was a Computer Science and Economics major at Cornell University's College of Arts and Sciences,
+                minored in law. In the past, I have been an intern at Amazon and the Open Networking Foundation.
               </p>
               {/* <Work /> */}
               <Divider horizontal>
