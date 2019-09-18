@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Item, Label } from 'semantic-ui-react';
+import YouTube, { Options } from 'react-youtube';
 import '../styles/projects.scss';
 
 interface IProjectsProps {
@@ -9,6 +10,15 @@ interface IProjectsProps {
 class Projects extends React.PureComponent<IProjectsProps> {
 
   public render() {
+    const videoOpts: Options = {
+      height: '300',
+      width: '500',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 0,
+        loop: 1,
+        controls: 0
+      }
+    };
     return (
       <Item.Group divided>
         <Item>
@@ -24,6 +34,9 @@ class Projects extends React.PureComponent<IProjectsProps> {
             </Item.Description>
             <Item.Description>
               Current initiative project under Cornell DTI engineering project team.
+            </Item.Description>
+            <Item.Description>
+              <YouTube videoId="J2ptsT_dX9Q" opts={videoOpts} />
             </Item.Description>
             <Item.Extra>
               <Label content="Cornell CIS BOOM 2019 Highlighted Project" icon="computer"
