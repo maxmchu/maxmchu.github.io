@@ -16,7 +16,8 @@ class Projects extends React.PureComponent<IProjectsProps> {
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
         loop: 1,
-        controls: 0
+        controls: 0,
+        rel: 0
       }
     };
     return (
