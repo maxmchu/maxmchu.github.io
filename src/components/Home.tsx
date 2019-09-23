@@ -29,7 +29,7 @@ class Home extends React.PureComponent<IHomeProps> {
               I have been an intern at Amazon and the Open Networking Foundation.
             </p>
             <div className="social-icons">
-              <Button color='linkedin' icon='linkedin' as="a" href="https://www.linkedin.com/in/max-chu-148b2946/" target="_blank" content="LinkedIn" />
+              <Button color='linkedin' icon='linkedin' as="a" href="https://www.linkedin.com/in/maxmchu/" target="_blank" content="LinkedIn" />
               <Button color='black' icon='github' as="a" href="https://github.com/maxmchu" target="_blank" content="GitHub" />
             </div>
             {/* <Work /> */}
