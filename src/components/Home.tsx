@@ -24,9 +24,12 @@ class Home extends React.PureComponent<IHomeProps> {
               <Header as="h1">About Me</Header>
             </Divider>
             <p>
-              I'm a Software Development Engineer at Amazon. I graduated in May 2019 from Cornell University's College of Arts and Sciences,
-              where I majored in Computer Science and Economics major and minored in law. In the past,
-              I have been an intern at Amazon and the Open Networking Foundation.
+              Hello! I'm a Software Development Engineer at Amazon. I graduated in May 2019 from Cornell University's College of Arts and Sciences,
+              where I majored in Computer Science and Economics major and minored in law.
+            </p>
+            <p>
+              I was previously an SDE Intern at Amazon, a software co-op intern at the Open Networking Foundation, and
+              Teaching Assistant at Cornell for machine learning, web development, and computer networking.
             </p>
             <div className="social-icons">
               <Button color='linkedin' icon='linkedin' as="a" href="https://www.linkedin.com/in/maxmchu/" target="_blank" content="LinkedIn" />
