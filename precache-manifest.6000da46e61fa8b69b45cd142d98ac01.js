@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51891aa3c99a412461fc5e345f43ed17",
+    "revision": "98c3d0396c296321d2b4ba5bd4fc4fcd",
     "url": "/index.html"
   },
   {
-    "revision": "e535913bd2e549fb9189",
+    "revision": "3df8bf2c7fd954175c56",
     "url": "/static/css/2.621b5bde.chunk.css"
   },
   {
-    "revision": "ed950bfb4a7fa8df9567",
-    "url": "/static/css/main.0cadfa9f.chunk.css"
+    "revision": "4a9fbcd930ee340c7ad3",
+    "url": "/static/css/main.e63e06cf.chunk.css"
   },
   {
-    "revision": "e535913bd2e549fb9189",
-    "url": "/static/js/2.aaaba17c.chunk.js"
+    "revision": "3df8bf2c7fd954175c56",
+    "url": "/static/js/2.49680c7d.chunk.js"
   },
   {
-    "revision": "ed950bfb4a7fa8df9567",
-    "url": "/static/js/main.5882b961.chunk.js"
+    "revision": "4a9fbcd930ee340c7ad3",
+    "url": "/static/js/main.6ed6d4e1.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -52,6 +52,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/carriage.2b3b1fe0.svg"
   },
   {
+    "revision": "c889fff138bd2be274c9e037932c5815",
+    "url": "/static/media/cornell-cis.c889fff1.jpg"
+  },
+  {
+    "revision": "a57c35a82acaa38883772934093c7527",
+    "url": "/static/media/cornell.a57c35a8.svg"
+  },
+  {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/static/media/flags.9c74e172.png"
   },
@@ -78,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbba32b59692f7e4ca7e3f295c596242",
     "url": "/static/media/max.cbba32b5.png"
+  },
+  {
+    "revision": "f2782354d22192a2a1cc9bb2b5687d5c",
+    "url": "/static/media/onf-logo.f2782354.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
