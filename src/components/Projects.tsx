@@ -12,7 +12,7 @@ class Projects extends React.PureComponent<IProjectsProps> {
   public render() {
     const videoOpts: Options = {
       height: '300',
-      width: '500',
+      width: '100%',
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
         loop: 1,
@@ -25,7 +25,7 @@ class Projects extends React.PureComponent<IProjectsProps> {
         <Item>
           <Item.Image size='tiny' src={require("../assets/img/carriage.svg")} />
           <Item.Content>
-            <Item.Header content="Carriage" className="project-header"
+            <Item.Header content="Carriage" className="project-header" target="_blank"
               as="a" href="https://carriage.maxmchu.com" />
             <Item.Meta content="Smarter and safer paratransit for the 21st century." />
             <Item.Description>
@@ -40,7 +40,7 @@ class Projects extends React.PureComponent<IProjectsProps> {
               <YouTube videoId="J2ptsT_dX9Q" opts={videoOpts} />
             </Item.Description>
             <Item.Extra>
-              <Label content="Cornell CIS BOOM 2019 Highlighted Project" icon="computer"
+              <Label content="Cornell CIS BOOM 2019" icon="computer"
                 as="a" href="https://www.cis.cornell.edu/boom-2019-showcasing-over-40-exciting-student-tech-projects"
                 target="_blank" />
               <Label content="2019 Big Idea Competition Finalist" icon="trophy"
@@ -71,20 +71,6 @@ class Projects extends React.PureComponent<IProjectsProps> {
               This Python program tracks the open status of Cornell classes from the
               university's online Course Roster (e.g. open, closed, or waitlist),
               and sends an SMS notification via Twilio to the user when a spot in a class has opened up.
-              </Item.Description>
-          </Item.Content>
-        </Item>
-        <Item>
-          <Item.Content>
-            <Item.Header content="CORD Contributor" as="a" target="_blank" className="project-header"
-              href="https://opencord.org" />
-            <Item.Meta content="CORD Web UI contributor" />
-            <Item.Description>
-              As part of co-op internship, created network service graphs, maps, and other UI integrations
-              for XOS with CORD using D3.js, Angular.JS, TypeScript, Python, and Java.
-              Developed VM configurations and Bash scripts for CORD development and
-              deployment with Python, Vagrant, Ansible, and Docker.
-              Worked specifically on E-CORD deployment, XOS and its GUI, VNaaS, and other miscellaneous projects.
               </Item.Description>
           </Item.Content>
         </Item>
