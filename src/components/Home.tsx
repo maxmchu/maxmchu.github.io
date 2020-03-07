@@ -32,7 +32,7 @@ class Home extends React.PureComponent<IHomeProps> {
             <Container text>
               <p>
                 Hello! I'm a Software Development Engineer at Amazon. I graduated in May 2019 from Cornell University's College of Arts and Sciences,
-                where I majored in Computer Science and Economics major and minored in law.
+                where I majored in Computer Science and Economics and minored in law.
               </p>
             </Container>          
             <Grid divided="vertically" columns={2} stackable>
