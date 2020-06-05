@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Divider, Item, Header, Container } from 'semantic-ui-react';
+import Education from './Education';
 
 interface IWorkProps {
 
@@ -11,7 +12,7 @@ class Work extends React.PureComponent<IWorkProps> {
     return (
       <Container fluid text>
         <Divider horizontal>
-          <Header as="h1">Work History</Header>
+          <Header as="h1">Work Experience</Header>
         </Divider>
 
         <Item.Group divided>
@@ -56,6 +57,12 @@ class Work extends React.PureComponent<IWorkProps> {
             </Item.Content>
           </Item>
         </Item.Group>
+
+        <Divider horizontal>
+          <Header as="h1">Education</Header>
+        </Divider>
+        <Education />
+
       </Container>
     );
   }
