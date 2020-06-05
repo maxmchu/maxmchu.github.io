@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Grid container fluid className="app-container" stretched style={{ backgroundColor: "#fff", margin: "0 0 5vh 0" }}>
+          <Grid className="app-container" stretched style={{ backgroundColor: "#fff", margin: "0 0 0 0" }}>
             <HeaderRouter />
             <Grid.Row>
               <Switch>
