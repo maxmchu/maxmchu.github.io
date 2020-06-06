@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Switch, Route, withRouter } from 'react-router-dom';
 import './App.scss';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Divider, Container } from 'semantic-ui-react';
 
 import Home from './components/Home';
 import Header from './components/Header';
@@ -28,6 +28,7 @@ class App extends Component {
                 <Route component={Home} />
               </Switch>
             </Grid.Row>
+            <Grid.Row />
           </Grid>
         </Router>
       </div>
